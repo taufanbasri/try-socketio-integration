@@ -91,5 +91,13 @@
                 </div>
             </div>
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.js"></script>
+
+        <script>
+            var socket = io('http://localhost:8000');
+
+            console.log(socket);
+        </script>
     </body>
 </html>
